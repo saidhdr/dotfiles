@@ -7,7 +7,6 @@ set nocompatible
 "------------------------------------------------------------
 call plug#begin()
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'davidhalter/jedi-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf', { 'dir': '~/.dotfiles/fzf', 'do': './install --bin' }
@@ -33,13 +32,6 @@ syntax on
 
 " Specific settings for different filetypes
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=<:>
-
-"------------------------------------------------------------
-" jedi-vim settings
-"------------------------------------------------------------
-let g:jedi#use_tabs_not_buffers = 0     " use buffers for jedi-jumping
-"let g:jedi#force_py_version = 3        " need vim with +python3 support
-let g:jedi#show_call_signatures = 0
 
 "------------------------------------------------------------
 " Settings
