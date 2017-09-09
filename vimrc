@@ -15,6 +15,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
 call plug#end()
 
 "------------------------------------------------------------
