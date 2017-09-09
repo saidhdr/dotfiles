@@ -7,7 +7,7 @@ esac
 DOTFILES=$HOME/.dotfiles
 
 if [ -z "$TMUX" ]; then
-    export TERM=xterm-16color
+    export TERM=xterm
 fi
 
 # Include color definitions
